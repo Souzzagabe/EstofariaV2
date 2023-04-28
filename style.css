@@ -5,16 +5,20 @@
   padding: 0;
   text-decoration: none;
   box-sizing: border-box;
-  font-family: "nunito", sans-serif;
+  font-family: "montserrat", sans-serif;
+  list-style: none;
 }
 
 html,
 body {
   width: 100%;
   overflow-x: hidden;
-  background-image: linear-gradient(to bottom, rgb(74, 74, 74), rgb(0, 0, 0));
+  background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(54, 54, 54));
   background-repeat: no-repeat;
 }
+
+
+/* HEADER */
 
 .header {
   display: flex;
@@ -23,9 +27,12 @@ body {
 }
 
 .logo img {
-  width: 100px;
-  height: 100px;
+  width: 140px;
+  height: 140px;
+  cursor: pointer;
 }
+
+/* CONTENT */
 
 .container {
   max-width: 1000px;
@@ -39,23 +46,194 @@ body {
 }
 
 .content-body {
-  background: tomato;
-    height: 700px;
-    display: flex;
-    /* justify-content: center; */
-    align-items: center;
-    flex-direction: column;
-    /* margin: 0 auto; */
-    margin: auto;
-    padding: 0 100px 0px 100px;
+  background: white;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  padding: 0 100px 0px 100px;
+  border-radius: 80px 10px 89px 10px;
+  border: 2px solid #FDB813;
+
 }
 
 .content-body h1 {
   font-size: 36px;
-  color: white;
-  margin: 0px 0px 50px 0px;
+  color: rgb(0, 0, 0);
+  margin: 30px 0px 50px 0px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 .content-body p {
   text-align: justify;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  padding: 0px 20px 0px 20px;
 }
+
+.foto1 img {
+  width: 250px;
+  height: 210px;
+}
+
+.content-photo {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.foto1 {
+  width: 300px;
+  height: 380px;
+  background: rgb(239 221 145);
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+.foto1 h2 {
+  margin-top: 10px;
+}
+
+/* CONTENT SERVICES */
+
+.body-services {
+  margin-top: 100px;
+}
+
+.services {
+  background: white;
+  width: 100%;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  padding: 0 100px 0px 100px;
+  border-radius: 80px 10px 89px 10px;
+  border: 2px solid #FDB813;
+
+}
+
+.services h1 {
+  font-size: 36px;
+  color: rgb(0, 0, 0);
+  margin: 30px 0px 50px 0px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.services p {
+  text-align: justify;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  padding: 0px 20px 0px 20px;
+}
+
+.foto2 img {
+  width: 250px;
+  height: 210px;
+}
+
+.services-photo {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin-top: 120px;
+}
+
+.foto2 {
+  width: 300px;
+  height: 380px;
+  background: rgb(239 221 145);
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+.foto2 h2 {
+  margin-top: 10px;
+}
+
+/* ABOUT */
+
+.about {
+  margin-top: 100px;
+}
+
+.about-content{
+  background: white;
+  width: 100%;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  padding: 0 100px 0px 100px;
+  border-radius: 80px 10px 89px 10px;
+  border: 2px solid #FDB813;
+}
+
+.about-content h1 {
+  font-size: 36px;
+  color: rgb(0, 0, 0);
+  margin: 30px 0px 50px 0px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.about-content p {
+  text-align: justify;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  padding: 0px 20px 0px 20px;
+  margin-bottom: 50px;
+}
+
+.about-content iframe {
+  box-shadow: 4px 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* FOOOTER */
+
+.container-footer {
+  max-width: 1000px;
+  min-width: 300px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-radius: 10px;
+  text-align: center;
+  
+  background-color: rgba(128, 128, 128, 0.381);
+}
+
+.icones ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  text-decoration: none;
+  list-style: none;
+  font-size: 60px;
+  cursor: pointer;
+}
+
+.icones ul li a {
+  text-decoration: none;
+  color:  #ffc745;
+  list-style: none;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
