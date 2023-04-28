@@ -244,6 +244,61 @@ footer {
 
 /* RESPONSIVIDADE */
 
-@media (max-width: 900px){
+@media (max-width: 870px){
 
+  .content-body {
+    width: 360px;
+    height: 1350px;
+    padding: 0;
+  }
+
+  .content-body h1{
+    font-size: 25px;
+  }
+
+  .content-photo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .services {
+    width: 360px;
+    height: 1200px;
+    padding: 0;
+  }
+
+  .body-services {
+    margin-top: 40px;
+  }
+
+  .services-photo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .services h1 {
+    font-size: 24px;
+    margin: 67px 0px 50px 0px;
+  }
+
+  .about {
+    margin-top: 40px;
+}
+ 
+  .about-content {
+    padding: 0;
+    height: 730px;
+    width: 360px;
+  }
+
+  .about-content h1 {
+    font-size: 24px;
+    margin: 64px 0px 50px 0px;
+  }
+
+  iframe {
+    width: 340px;
+    height: 300px;
+  }
 }
