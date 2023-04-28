@@ -185,7 +185,7 @@ body {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
-.about-content p {
+.about-content p, h2 {
   text-align: justify;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
   padding: 0px 20px 0px 20px;
@@ -237,3 +237,9 @@ footer {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 900px){
+
+}
