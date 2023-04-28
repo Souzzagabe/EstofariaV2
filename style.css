@@ -185,11 +185,15 @@ body {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
-.about-content p, h2 {
+.about-content p {
   text-align: justify;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
   padding: 0px 20px 0px 20px;
   margin-bottom: 50px;
+}
+
+.about-content h2 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 .about-content iframe {
