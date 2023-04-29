@@ -54,6 +54,7 @@ body {
   padding: 0 100px 0px 100px;
   border-radius: 80px 10px 89px 10px;
   border: 2px solid #FDB813;
+  box-shadow: 0px 0px 16px #f3c964;
 
 }
 
@@ -161,7 +162,7 @@ line-height: 25px;
   padding: 0 100px 0px 100px;
   border-radius: 80px 10px 89px 10px;
   border: 2px solid #FDB813;
-
+  box-shadow: 0px 0px 16px #f3c964;
 }
 
 .services h1 {
@@ -223,6 +224,7 @@ line-height: 25px;
   padding: 0 100px 0px 100px;
   border-radius: 80px 10px 89px 10px;
   border: 2px solid #FDB813;
+  box-shadow: 0px 0px 16px #f3c964;
 }
 
 .about-content h1 {
@@ -275,7 +277,7 @@ footer {
   border-radius: 10px;
   text-align: center;
   
-  background-color: rgba(128, 128, 128, 0.381);
+  background-color: rgb(150 150 150 / 69%);
 }
 
 .icones ul {
