@@ -256,8 +256,8 @@ body {
 }
 
   .content-body {
-    width: 360px;
-    height: 730px;
+    width: 280px;
+    height: 1400px;
     padding: 0;
   }
 
@@ -271,7 +271,7 @@ body {
   }
 
   .services {
-    width: 360px;
+    width: 280px;
     height: 1400px;
     padding: 0;
   }
@@ -293,21 +293,30 @@ body {
 
   .about {
     margin-top: 40px;
-}
+  }
  
   .about-content {
     padding: 0;
-    height: 980px;
-    width: 360px;
+    height: 800px;
+    width: 280px;;
   }
 
   .about-content h1 {
-    font-size: 20px;
+    font-size: 17px;
     margin: 64px 0px 50px 0px;
   }
 
   iframe {
-    width: 340px;
-    height: 300px;
+    width: 260px;
+    height: 340px;
+  }
+
+  .foto1, .foto2{
+    width: 260px;
+    height: 340px;
+  }
+
+  .icones ul {
+    font-size: 30px;
   }
 }
