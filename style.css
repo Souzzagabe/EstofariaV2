@@ -13,7 +13,6 @@ html,
 body {
   height: 100%;
   width: 100%;
-overflow-x: hidden;
   background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(54, 54, 54));
   background-repeat: no-repeat;
 }
