@@ -95,6 +95,7 @@ body {
 
 .foto1 h2 {
   margin-top: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 /* CONTENT SERVICES */
@@ -156,6 +157,7 @@ body {
 
 .foto2 h2 {
   margin-top: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 /* ABOUT */
