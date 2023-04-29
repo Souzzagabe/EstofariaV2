@@ -67,12 +67,14 @@ body {
 .content-body p {
   text-align: justify;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-  padding: 0px 20px 0px 20px;
+  padding: 10px;
 }
 
 .foto1 img {
-  width: 250px;
-  height: 210px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
 }
 
 .content-photo {
@@ -82,6 +84,7 @@ body {
 }
 
 .foto1 {
+  position: relative;
   width: 300px;
   height: 380px;
   background: rgb(239 221 145);
@@ -90,13 +93,56 @@ body {
   border-radius: 10px;
   flex-direction: column;
   align-items: center;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+  box-shadow: 8px 3px 16px rgba(0, 0, 0, 0.4);
+  border: 4px solid #f3c964;
+  overflow: hidden;
+  cursor: pointer;
 }
 
-.foto1 h2 {
-  margin-top: 10px;
+.card-body{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: -100%;
+  position: absolute;
+  background: #1f3d4745;
+  backdrop-filter: blur(5px);
+  color: white;
+  padding: 20px;
+  transition: 2s;
+}
+
+.foto1:hover .card-body {
+  right: 0;
+}
+
+
+.card-body h1{
+  color: white;
+  font-weight: bold;
+
+}
+
+.card-title{
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 36px;
+  color: rgb(255, 255, 255);
+  
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
+
+.card-subtitle{
+text-transform: capitalize;
+font-weight: 400;
+font-size: 15px;
+margin: 10px 0;
+line-height: 25px;
+}
+/* .foto1 h2 {
+  margin-top: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+} */
 
 /* CONTENT SERVICES */
 
@@ -201,6 +247,11 @@ body {
   box-shadow: 4px 6px 20px rgba(0, 0, 0, 0.4);
 }
 
+.card-body p{
+  text-align: justify;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  padding: 10px;
+}
 /* FOOOTER */
 
 
