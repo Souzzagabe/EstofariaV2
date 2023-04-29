@@ -256,13 +256,13 @@ body {
 }
 
   .content-body {
-    width: 280px;
+    width: 340px;
     height: 1400px;
     padding: 0;
   }
 
   .content-body h1{
-    font-size: 20px;
+    font-size: 2em;
   }
 
   .content-photo {
@@ -271,7 +271,7 @@ body {
   }
 
   .services {
-    width: 280px;
+    width: 340px;
     height: 1400px;
     padding: 0;
   }
@@ -287,7 +287,7 @@ body {
   }
 
   .services h1 {
-    font-size: 19px;
+      font-size: 2em;
     margin: 67px 0px 50px 0px;
   }
 
@@ -298,11 +298,11 @@ body {
   .about-content {
     padding: 0;
     height: 800px;
-    width: 280px;;
+    width: 340px;
   }
 
   .about-content h1 {
-    font-size: 17px;
+    font-size: 2em;
     margin: 64px 0px 50px 0px;
   }
 
