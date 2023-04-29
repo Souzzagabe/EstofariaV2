@@ -11,7 +11,6 @@
 
 html,
 body {
-  height: 100%;
   width: 100%;
   background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(54, 54, 54));
   background-repeat: no-repeat;
@@ -202,6 +201,8 @@ body {
 
 /* FOOOTER */
 
+
+
 .container-footer {
   max-width: 1000px;
   min-width: 300px;
@@ -245,6 +246,14 @@ footer {
 /* RESPONSIVIDADE */
 
 @media (max-width: 870px){
+
+
+html,
+body {
+  width: 100%;
+  background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(54, 54, 54));
+  background-repeat: no-repeat;
+}
 
   .content-body {
     width: 360px;
