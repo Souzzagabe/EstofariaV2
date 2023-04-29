@@ -231,8 +231,9 @@ footer {
   flex-direction: row;
   text-decoration: none;
   list-style: none;
-  font-size: 60px;
+  font-size: 50px;
   cursor: pointer;
+  gap: 30px;
 }
 
 .icones ul li a {
@@ -318,6 +319,7 @@ body {
 
   .icones ul {
     font-size: 30px;
+    gap: 30px;
   }
 }
 
@@ -374,5 +376,10 @@ body {
 
 .about-content p {
   padding: 0px 20px 0px 20px;
+}
+
+.icones ul {
+  font-size: 46px;
+  gap: 30px;
 }
 }
