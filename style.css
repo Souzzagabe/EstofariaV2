@@ -245,7 +245,7 @@ footer {
 
 /* RESPONSIVIDADE */
 
-@media (max-width: 870px){
+@media (max-width: 679px){
 
 
 html,
@@ -319,4 +319,60 @@ body {
   .icones ul {
     font-size: 30px;
   }
+}
+
+@media (min-width: 680px) and (max-width: 900px){
+  .content-body{
+    width: 100%;
+  }
+
+  .content-body {
+    padding: 0px 20px 0px 20px
+  }
+
+  .content-body h1 {
+    font-size: 36px;
+    color: rgb(0, 0, 0);
+    margin: 50px 0px 35px 0px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  }
+
+  .content-body p{
+    padding: 0px 20px 0px 20px;
+  }
+
+.content-photo{
+  gap: 17px;
+}
+
+.services {
+  padding: 0px 20px 0px 20px
+}
+.services h1 {
+  font-size: 33px;
+  color: rgb(0, 0, 0);
+  margin: 50px 0px 35px 0px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.services p {
+  padding: 0px 20px 0px 20px;
+}
+
+.services-photo {
+  gap: 17px;
+}
+
+.about-content {
+  padding: 0px 20px 0px 20px;
+}
+
+.about-content h1 {
+  font-size: 33px;
+
+}
+
+.about-content p {
+  padding: 0px 20px 0px 20px;
+}
 }
