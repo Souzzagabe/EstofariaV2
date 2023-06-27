@@ -14,6 +14,8 @@ body {
   width: 100%;
   background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(54, 54, 54));
   background-repeat: no-repeat;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 
@@ -267,6 +269,7 @@ line-height: 25px;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding-top: 4px;
 
 }
 
@@ -303,18 +306,21 @@ line-height: 25px;
 /* RESPONSIVIDADE */
 
 @media (max-width: 679px){
-
+ .container {
+  padding: 0;
+ }
 
 html,
 body {
   width: 100%;
   background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(54, 54, 54));
   background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 
   .content-body {
-    width: 340px;
-    height: 1400px;
+       width: 383px;
+    height: 1289px;
     padding: 0;
   }
 
@@ -328,7 +334,7 @@ body {
   }
 
   .services {
-    width: 340px;
+    width: 382px;
     height: 1200px;
     padding: 0;
   }
@@ -353,9 +359,9 @@ body {
   }
  
   .about-content {
-    padding: 0;
-    height: 800px;
-    width: 340px;
+    padding: 0px;
+    height: 735px;
+    width: 382px;
   }
 
   .about-content h1 {
