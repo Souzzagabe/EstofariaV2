@@ -270,7 +270,7 @@ line-height: 25px;
   border-radius: 80px 10px 89px 10px;
   border: 2px solid #FDB813;
   box-shadow: 0px 0px 8px #f3c964;
-  margin-bottom: 55px;
+  margin-bottom: 3px;
 }
 
 .about-content h1 {
@@ -343,6 +343,21 @@ line-height: 25px;
   color:  #ffc745;
   list-style: none;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.marca {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 1000px;
+  min-width: 300px;
+  padding-bottom: 70px;
+}
+
+.marca a {
+  color: white;
+  text-decoration: none;
 }
 
 
