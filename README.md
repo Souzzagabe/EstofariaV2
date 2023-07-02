@@ -8,4 +8,4 @@ O rodapé da página contém links para as redes sociais da empresa, como Facebo
 
 Em resumo, a landing page da Fênix Estofaria é uma ferramenta essencial para promover a empresa, apresentar seus serviços de estofaria e higienização, além de facilitar o contato direto com potenciais clientes interessados em seus serviços.
 
-Deploy: https://souzzagabe.github.io/EstofariaV2/
+deploy: https://souzzagabe.github.io/EstofariaV2/
